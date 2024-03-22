@@ -1,7 +1,7 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "build": {"dockerfile": "../Dockerfile"},
-  "forwardPorts": [1234, 5678],
+  "forwardPorts": [1234, 9000],
   "postStartCommand": "cd app && docker build -t page:test",
   "features": {
   }
